@@ -1,0 +1,234 @@
+<html>
+<head>
+<title>Student Registration Form</title>
+    <style>
+        body {
+            font-family: "Times New Roman", serif;
+            margin: 30px;
+        }
+
+        h1 {
+            font-size: 32px;
+        }
+
+        h2 {
+            font-size: 28px;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 800px;
+        }
+
+        td, th {
+            border: 2px solid #aaa;
+            padding: 2px 4px;
+            height: 24px;
+        }
+
+        input, textarea {
+            font-family: "Times New Roman", serif;
+            font-size: 16px;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="date"],
+        input[type="number"],
+        input[type="password"] {
+            width: 160px;
+            height: 22px;
+        }
+
+        textarea {
+            width: 145px;
+            height: 40px;
+        }
+
+        .label {
+            width: 165px;
+        }
+
+        .qualification {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        .qualification td,
+        .qualification th {
+            border: none;
+            padding: 2px;
+        }
+
+        button {
+            font-family: "Times New Roman", serif;
+            font-size: 14px;
+            margin: 2px;
+        }
+    </style>
+</head>
+<body>
+<h2>STUDENT REGISTRATION FORM</h2>
+<form>
+<table>
+<tr>
+<td class="label">FIRST NAME:</td>
+<td><input type="text" ></td>
+<td colspan="2"></td>
+</tr>
+<tr>
+<td class="label">LAST NAME:</td>
+<td><input type="text"></td>
+<td colspan="2"></td>
+</tr>
+<tr>
+<td class="label">EMAIL ID:</td>
+<td><input type="email" ></td>
+<td colspan="2"></td>
+</tr>
+<tr>
+<td class="label">DOB</td>
+<td><input type="date" ></td>
+<td colspan="2"></td>
+</tr>
+<tr>
+<td class="label">MOBILE NUMBER</td>
+<td><input type="text"></td>
+<td colspan="2"></td>
+</tr>
+<tr>
+<td class="label">GENDER</td>
+<td colspan="3">
+<input type="radio" name="gender"> male
+<input type="radio" name="gender"> female
+</td>
+</tr>
+<tr>
+<td class="label">ADDRESS</td>
+<td>
+<textarea>
+</textarea>
+</td>
+<td colspan="2"></td>
+</tr>
+<tr>
+<td class="label">CITY</td>
+<td><input type="text" ></td>
+<td>(max 30 characters)</td>
+<td></td>
+</tr>
+<tr>
+<td class="label">PIN CODE</td>
+<td><input type="number"></td>
+<td>(6 digit number)</td>
+<td></td>
+</tr>
+<tr>
+<td class="label">STATE</td>
+<td><input type="text" ></td>
+<td colspan="2"></td>
+</tr>
+<tr>
+<td class="label">COUNTRY</td>
+<td><input type="text"></td>
+<td colspan="2"></td>
+</tr>
+<tr>
+<td class="label">HOBBIES</td>
+<td colspan="3">
+<input type="checkbox"> Dancing
+<input type="checkbox" > Singing
+<input type="checkbox"> painting
+<input type="checkbox"> reading
+</td>
+</tr>
+<tr>
+<td class="label">Qualification</td>
+<td colspan="3">
+<table class="qualification">
+<tr>
+<th>SL<br>NO</th>
+<th>Examination</th>
+<th>BOARD</th>
+<th>PERCENTAGE</th>
+<th>YEAR OF PASSING</th>
+</tr>
+<tr>
+<td>1</td>
+<td>class x</td>
+<td><input type="text" ></td>
+<td><input type="number"></td>
+<td><input type="number"></td>
+</tr>
+<tr>
+<td>2</td>
+<td>class xii</td>
+<td><input type="text" ></td>
+<td><input type="number" ></td>
+<td><input type="number" ></td>
+</tr>
+<tr>
+<td>3</td>
+<td>DEGREE</td>
+<td><input type="text"></td>
+<td><input type="number"></td>
+<td><input type="number"></td>
+</tr>
+<tr>
+<td>4</td>
+<td>MASTERS</td>
+<td><input type="text"></td>
+<td><input type="number"></td>
+<td><input type="number"></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>(10 characters)</td>
+<td>(upto 2 decimals)</td>
+<td></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td colspan="4">
+COURSE APPLIED FOR
+<input type="radio" name="course">
+MCA
+<input type="radio" name="course">
+M.Tech
+<input type="radio" name="course">
+M.Sc
+<input type="radio" name="course">
+Ph.D
+</td>
+</tr>
+<tr>
+<tr>
+<td class="label">PASSWORD</td>
+<td>
+<input type="password">
+</td>
+<td>(max 30 characters)</td>
+<td></td>
+</tr>
+<tr>
+<td class="label">Date of TC:</td>
+<td>
+<input type="date">
+</td>
+<td colspan="2"></td>
+</tr>
+<tr>
+<td colspan="4" align="center">
+<button type="submit">SUBMIT</button>
+<button type="reset">RESET</button>
+</td>
+</tr>
+</table>
+</form>
+</body>
+</html>
+
+
